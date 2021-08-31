@@ -38,7 +38,7 @@ module.exports = function(app) {
     db.create({
       inputTemperature: req.body.inputTemperature,
       targetUnitOfMeasure: req.body.targetUnitOfMeasure,
-      studentsResponse: req.body.studentsResponse,
+      studentAnswer: req.body.studentAnswer,
       authoritativeAnswer: req.body.authoritativeAnswer,
       result: req.body.result
     })

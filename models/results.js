@@ -7,7 +7,7 @@ const sequelize = require("../config/connection");
 const results = sequelize.define("results", {
   inputTemperature: Sequelize.STRING,
   targetUnitOfMeasure: Sequelize.STRING,
-  studentsResponse: Sequelize.INTEGER,
+  studentAnswer: Sequelize.INTEGER,
   authoritativeAnswer: Sequelize.INTEGER,
   result: Sequelize.STRING
 },{

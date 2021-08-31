@@ -34,8 +34,8 @@ $("#search-btn").on("click", function() {
     $("#well-section-" + i).append("<h3>inputTemperature: " + data[i].inputTemperature + "</h4>");
     // the targetUnitOfMeasure an h3,
     $("#well-section-" + i).append("<h3>targetUnitOfMeasure: " + data[i].targetUnitOfMeasure + "</h4>");
-    // the studentsResponse an h3,
-    $("#well-section-" + i).append("<h3>studentsResponse: " + data[i].studentsResponse + "</h4>");
+    // the studentAnswer an h3,
+    $("#well-section-" + i).append("<h3>studentAnswer: " + data[i].studentAnswer + "</h4>");
     // and the authoritativeAnswer an h3.
     $("#well-section-" + i).append("<h3>authoritativeAnswer: " + data[i].authoritativeAnswer + "</h4>");
     // and the result an h3.

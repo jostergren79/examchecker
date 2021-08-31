@@ -15,8 +15,8 @@ $("#add-btn").on("click", function(event) {
     // targetUnitOfMeasure 
     targetUnitOfMeasure : $("#targetUnitOfMeasure ").val().trim(),
    
-    // studentsResponse 
-    studentsResponse: $("#studentsResponse").val().trim(),
+    // studentAnswer 
+    studentAnswer: $("#studentAnswer").val().trim(),
    
     // authoritativeAnswer
     authoritativeAnswer: $("#authoritativeAnswer").val().trim(),
@@ -29,12 +29,12 @@ $("#add-btn").on("click", function(event) {
   // Check the result
 //   function resultChecker () {
 
-//     let studentsResponse = Math.ceil(studentsResponse)
+//     let studentAnswer = Math.ceil(studentAnswer)
 //     let authoritativeAnswer = Math.ceil(authoritativeAnswer)
 
-//     if (studentsResponse == authoritativeAnswer) {
+//     if (studentAnswer == authoritativeAnswer) {
 //         result = "Correct"
-//     } else if (studentsResponse != authoritativeAnswer) {
+//     } else if (studentAnswer != authoritativeAnswer) {
 //         result = "Incorrect" 
 //     } else {
 //         result = "Invalid"
@@ -56,7 +56,7 @@ $("#add-btn").on("click", function(event) {
   // empty each input box by replacing the value with an empty string
   $("#inputTemperature").val("");
   $("#targetUnitOfMeasure").val("");
-  $("#studentsResponse").val("");
+  $("#studentAnswer").val("");
   $("#authoritativeAnswer").val("");
   $("#result").val("");
 });

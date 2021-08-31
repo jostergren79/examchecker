@@ -1,11 +1,11 @@
 function resultChecker () {
 
-    let studentsResponse = Math.ceil(studentsResponse)
+    let studentAnswer = Math.ceil(studentAnswer)
     let authoritativeAnswer = Math.ceil(authoritativeAnswer)
 
-    if (studentsResponse == authoritativeAnswer) {
+    if (studentAnswer == authoritativeAnswer) {
         result = "Correct"
-    } else if (studentsResponse != authoritativeAnswer) {
+    } else if (studentAnswer != authoritativeAnswer) {
         result = "Incorrect" 
     } else {
         result = "Invalid"
