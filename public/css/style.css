@@ -5,11 +5,6 @@ button.submit {
   form#cms {
     margin-top: 50px;
   }
-  
-  #cms textarea {
-    resize: none;
-  }
-  
   .card-header button.delete,
   button.edit {
     float: right;
