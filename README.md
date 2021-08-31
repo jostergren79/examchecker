@@ -1,8 +1,8 @@
-# examchecker
+# examchecker Mednet Developer Challenge
 
 The examchecker application was designed as part of a developer challenge for Mednet.
 
-The primary front end languages and libraries used in this application include.
+The primary front end languages and libraries used in examchecker include.
 
 JavaScript / jquery
 HTML 
@@ -34,21 +34,7 @@ Requirements/User Journey
 
 4.	Enter the authoritative answer.
 
- after both the student's response and authoritative answer are rounded to the ones place. The system indicates that the response is correct, incorrect, or invalid
-Submitting your response
+5. Programatically both the student's response and authoritative answer are rounded to the ones place. The system then ndicates that the response is either correct, incorrect, or invalid
 
-1.	Create a public GitHub or BitBucket repo that will contain your code
-2.	Include a README.md that explains how to install (or deploy) and run (or access) your program
-3.	Include any supporting documentation or assumptions in the README. This may include, but is not limited to: 
-1.	API documentation
-2.	ERD or data model summary
-4.	Notify the development manager (amolinasandoval@mednetsolutions.com) that you are ready and provide your repo URL or send a compressed archive containing the project files
-Example Scenarios (not exhaustive):
-Input Temperature	Target Units	Student Response	Grade
-84.2 Fahrenheit	Rankine	543.5	correct
--45.14 Celsius	Kelvin	227.51	correct
-317.33 Kelvin	Fahrenheit	110.5	incorrect
-444.5 Rankine	Celsius	-30.9	incorrect
-6.5 Fahrenheit	Rankine	cat	incorrect
-bird	Celsius	45.32	invalid
+
 
