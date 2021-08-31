@@ -26,22 +26,16 @@ $("#add-btn").on("click", function(event) {
 
   };
 
-  // Check the result
-//   function resultChecker () {
+  function validatedResult () {
+  
+  let studentAnswerInt = parseInt(newInput.studentAnswer)
+  let authoritativeAnswerInt = parseInt(newInput.authoritativeAnswer)
 
-//     let studentAnswer = Math.ceil(studentAnswer)
-//     let authoritativeAnswer = Math.ceil(authoritativeAnswer)
+  console.log(studentAnswerInt);
+  console.log(authoritativeAnswerInt); 
+  }
 
-//     if (studentAnswer == authoritativeAnswer) {
-//         result = "Correct"
-//     } else if (studentAnswer != authoritativeAnswer) {
-//         result = "Incorrect" 
-//     } else {
-//         result = "Invalid"
-//     }
-// };
-// resultChecker (); 
-
+validatedResult ();
 
   // send an AJAX POST-request with jQuery
   $.post("/api/results/new", newInput)
@@ -52,6 +46,7 @@ $("#add-btn").on("click", function(event) {
       // tell the user we're adding a Input with an alert window
       alert("Adding Input...");
     });
+
 
   // empty each input box by replacing the value with an empty string
   $("#inputTemperature").val("");
