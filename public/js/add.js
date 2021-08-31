@@ -6,7 +6,7 @@
 $("#add-btn").on("click", function(event) {
   event.preventDefault();
 
-  // make a newInput obj
+  // make a newInput object
   const newInput = {
 
     // inputTemperature 
@@ -25,6 +25,23 @@ $("#add-btn").on("click", function(event) {
     result: $("#result").val().trim()
 
   };
+
+  // Check the result
+//   function resultChecker () {
+
+//     let studentsResponse = Math.ceil(studentsResponse)
+//     let authoritativeAnswer = Math.ceil(authoritativeAnswer)
+
+//     if (studentsResponse == authoritativeAnswer) {
+//         result = "Correct"
+//     } else if (studentsResponse != authoritativeAnswer) {
+//         result = "Incorrect" 
+//     } else {
+//         result = "Invalid"
+//     }
+// };
+// resultChecker (); 
+
 
   // send an AJAX POST-request with jQuery
   $.post("/api/results/new", newInput)

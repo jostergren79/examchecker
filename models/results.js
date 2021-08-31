@@ -7,8 +7,8 @@ const sequelize = require("../config/connection");
 const results = sequelize.define("results", {
   inputTemperature: Sequelize.STRING,
   targetUnitOfMeasure: Sequelize.STRING,
-  studentsResponse: Sequelize.STRING,
-  authoritativeAnswer: Sequelize.STRING,
+  studentsResponse: Sequelize.INTEGER,
+  authoritativeAnswer: Sequelize.INTEGER,
   result: Sequelize.STRING
 },{
 freezeTableName: true,
